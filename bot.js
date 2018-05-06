@@ -15,4 +15,4 @@ client.on('message', message => {
     if(message.content.startsWith(prefix + 'remove')){var message_split = message.content.split(' '); var index = peoples.indexOf(message_split[1]); peoples.splice(index,1); message.channel.sendMessage(peoples);};
     });
 
-client.login('NDQxOTc3MDI5MTMxNTAxNTY4.Dc4HsQ.90Lpo4xC3oPxF2aFNEtmVU0EmMo');
+client.login();
